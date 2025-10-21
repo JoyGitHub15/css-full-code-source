@@ -1,0 +1,60 @@
+
+
+h1{
+  color:rgb(0, 255, 34);
+  font-size: 35px;
+}
+p{
+  color: rgb(98, 0, 128);
+  font-size: 25px;
+}
+div{
+  width:200px;
+  height: 200px;
+  background:rgb(225, 255, 0);
+  
+  margin-bottom:20px;
+
+}
+
+
+div p{
+  color:rgb(144, 147, 144)
+}
+.color_ii{
+  background: green;
+  margin-bottom:40px;
+  
+}
+.color_ii p {color: white
+
+}
+
+
+
+
+
+.color_iii {
+  background:blue
+  
+}
+
+.color_iii p{
+  color: antiquewhite;
+}
+
+
+
+
+
+.color_iv{
+
+  background:rebeccapurple;
+ 
+}
+
+.color_iv p{
+
+  
+  color: white;
+}
