@@ -8,19 +8,25 @@ p{
   color: rgb(98, 0, 128);
   font-size: 25px;
 }
+
 div{
   width:200px;
   height: 200px;
-  background:rgb(225, 255, 0);
-  
   margin-bottom:20px;
-
+  background:aqua;
+  color: rgb(159, 219, 10);
 }
 
 
-div p{
-  color:rgb(144, 147, 144)
+.color_i{
+  background: red;
 }
+
+.color_i p{
+  color: white;
+}
+
+
 .color_ii{
   background: green;
   margin-bottom:40px;
@@ -29,8 +35,6 @@ div p{
 .color_ii p {color: white
 
 }
-
-
 
 
 
@@ -45,8 +49,6 @@ div p{
 
 
 
-
-
 .color_iv{
 
   background:rebeccapurple;
@@ -57,4 +59,27 @@ div p{
 
   
   color: white;
+}
+
+#big-div{
+
+  width: 400px;
+  background:rebeccapurple;
+
+}
+#big-div p{
+
+ color: white;
+
+}
+.color_v{
+  background:rebeccapurple ;
+}
+.color_v p{
+  color:white;
+}
+
+/* grouping*/
+#big-div,.color_ii{
+  width: 600px;
 }

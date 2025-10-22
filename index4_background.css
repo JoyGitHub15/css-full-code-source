@@ -1,0 +1,19 @@
+body{
+  background: url(imaige5.jpeg);
+  background-attachment:fixed;
+}
+
+div{
+  background-color: rgba(33, 211, 16, 0.3);
+  background-image:url(imaige.jpg);
+  background-attachment:fixed;
+  
+  
+  background-size:800px 800px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+div p,h1{
+  font-size:25px;
+  color: rgb(102, 25, 160);
+}
