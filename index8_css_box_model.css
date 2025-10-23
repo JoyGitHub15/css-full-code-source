@@ -1,0 +1,17 @@
+body{
+
+  background:url(imaige2.jpeg);
+  background-attachment: fixed;
+}
+.perent{
+background-color: rebeccapurple;
+
+width:24%;
+margin: 1%;
+padding:2%;
+border:0.5em solid red;
+float:left;
+
+}
+
+
