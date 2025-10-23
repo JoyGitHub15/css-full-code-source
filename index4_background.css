@@ -4,16 +4,24 @@ body{
 }
 
 div{
+
   background-color: rgba(33, 211, 16, 0.3);
   background-image:url(imaige.jpg);
   background-attachment:fixed;
   
   
-  background-size:800px 800px;
-  background-repeat:no-repeat;
-  background-position:center;
+  background-size:80%;
+  
+  background-position: center;
+  
+  
+  margin: 1% auto;
+   padding: 4%;
+   width:88%;
+   
+ 
 }
 div p,h1{
-  font-size:25px;
-  color: rgb(102, 25, 160);
+   font-size: 110%;
+  color: rgb(8, 2, 12);
 }

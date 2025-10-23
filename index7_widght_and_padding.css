@@ -6,8 +6,10 @@ body{
 .perent{
   background:url(imaige.jpg);
   background-attachment:fixed;
-  background-size:50%;
+  background-size:80%;
+  background-position: center;
   
+
   color: rgb(20, 2, 2);
  
   margin: 2% auto;
