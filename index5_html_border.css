@@ -1,0 +1,37 @@
+h1{
+/*border-style:inset;
+border-width:10px;
+border-color: hwb(271 8% 36% );
+color: rgb(216, 44, 44);
+border:5px solid red;
+border-redius:15px;*/
+background: rgb(80, 56, 56);
+border-color: aqua;
+border-left: 300px solid rgb(64, 103, 150,0.5);
+border-right: 325px solid rgb(168, 183, 33,0.5);
+border-top: 300px solid rgb(75, 145, 155,0.5);
+border-bottom: 300px solid rgb(124, 62, 62,0.5);
+color: rgb(230, 235, 232);
+border-left-style:dotted;
+border-right-style:dotted;
+border-top-style:dotted;
+border-bottom-style:dotted;
+}
+
+ p{
+  color: rgb(225, 218, 218);
+  border-style:ridge;
+  border-color: brown;
+  border-top:300px solid rgb(10, 10, 76);
+  border-bottom:300px solid rgb(80, 56, 56) ;
+  border-left:300px solid rgb(30, 98, 149);
+  border-right:300px solid rgb(53, 108, 57);
+
+  font-size:15px;
+
+ 
+}
+
+div{
+  background:rgb(63, 48, 79);
+}
