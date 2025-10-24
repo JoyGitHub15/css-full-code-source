@@ -1,0 +1,35 @@
+h1{
+text-align:center;
+border: dotted greenyellow;
+
+margin: 2%;
+padding: 2%;
+width: 90%;
+background: url(imaige5.jpeg);
+background-size: 2%;
+background-attachment:fixed;
+color: white;
+background-position:center;
+font-size: 200%;
+font-family: sans-serif;
+}
+
+body{
+  background: url(imaige8.jpeg);
+
+  background-size: 122%;
+  background-attachment: fixed;
+  margin: 2%;
+  padding:2%;
+}
+
+p{
+  background: url(imaige7.jpeg);
+  background-attachment: fixed;
+  color: black;
+  margin:1%;
+  padding:2%;
+  font-size:110%;
+
+}
+
