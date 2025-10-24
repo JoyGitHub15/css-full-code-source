@@ -1,0 +1,106 @@
+h1{
+color: rgb(228, 233, 230);
+text-align:center;
+background: url(imaige3.jpg);
+background-size:2%;
+background-attachment:fixed;
+border:solid #df3aab;
+
+}
+
+.one{
+  text-align:left;
+text-align-last: center;
+
+}
+.two{
+  text-align:right;
+  text-align-last: center;
+
+}
+.three{
+  text-align: center;
+  text-align-last: left;
+}
+.four{
+  text-align: center;
+  text-align-last:right
+}
+p{
+  margin: 2%;
+  padding: 4%;
+  border: 2px solid red;
+  font-size: 110%;
+ border-style:dotted;
+ background: url(imaige3.jpg);
+ background-size:2%;
+ background-attachment:fixed;
+ color:white;
+}
+body{
+  background:url(imaige6.jpeg);
+  background-size: 2%;
+  background-attachment:fixed;
+  margin:2%;
+  padding:2% ;
+  
+}
+
+label{
+  display: block;
+  color: rgb(221, 215, 215);
+  
+}
+
+
+input{
+  background: rgb(104, 74, 135);
+  font-size: 120%;
+  background: url(imaige.jpg);
+    background-size:1%;
+    background-attachment:fixed;
+    color:#85333f
+
+   
+}
+
+
+label{
+  background:url(imaige3.jpg) ;
+  background-size:2%;
+  font-size:120%;
+  background-attachment:fixed;
+  border:dotted red;
+  text-align: center;
+  background: clip 10%;
+  
+
+  
+}
+.like{
+  font-size:250%;
+  background: url(imaige3.jpg);
+  background-size:2%;
+  color: white;
+  border:dotted rgb(227, 222, 222);
+  text-align: center;
+}
+.h{
+  font-size:250%;
+  color: white;
+  background: url(imaige3.jpg);
+  background-size:2%;
+  background-attachment:fixed;
+  border:dotted ;
+  text-align: center;
+}
+.tera{
+  background: url(imaige3.jpg);
+  background-size:2%;
+  background-attachment: fixed;
+  font-size:150%;
+  color: white;
+  border: dotted #f9f5f8 ;
+  text-align: center;
+  
+}
