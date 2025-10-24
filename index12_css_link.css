@@ -1,0 +1,18 @@
+
+
+a :hover{
+  color: blueviolet;
+}
+a :visited{
+  color: brown;
+}
+a :active{
+  color: rgb(0, 255, 26);
+  font-weight: bold;
+  font-size: 12px;
+}
+a :focus{
+  color: black;
+  font-size: 16px;
+  background: blue;
+}
