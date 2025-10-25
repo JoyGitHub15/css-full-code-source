@@ -1,0 +1,25 @@
+
+
+h1,h3,p,span,a{
+  background: rgb(49, 157, 200);
+}
+h1{
+  display:inline-block ;
+  
+}
+span{
+  display: block;
+}
+/*so eta amar hate ami chayley inline-block eliment ke block eliment banathe pari and ami block eliment ke chailey inline-block eliment banate pari display er maddhome */
+h2{
+  display: none;
+}
+.button{
+  background: red;
+  color: white;
+  font-size: 110%;
+  margin:5px;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
