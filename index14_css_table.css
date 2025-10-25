@@ -1,0 +1,22 @@
+table,th,td{
+  border:1px solid rgb(10, 1, 2);
+ 
+  
+  color: rgb(1, 0, 6);
+  border-collapse: collapse;
+  margin: 2%;
+  padding:10px 10px;
+  
+}
+/*body{
+  background: url(imaige5.jpeg);
+  background-size: 2%;
+}*/
+table{
+  width:100%;
+  margin: 4%;
+  padding: 3%;
+}
+th{
+  height:50px;
+}
