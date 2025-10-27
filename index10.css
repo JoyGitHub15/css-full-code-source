@@ -1,0 +1,80 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*/
+
+
+
+h1{
+ 
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive ;
+  font-family: fantasy;
+  /*custom fonts*/
+  font-family:'roboto ';
+  font-family: 'Lato',sans-serif;
+  /*serif font*/
+  font-family: 'times new roman';
+  font-family: georgia;
+
+  /*sens serif font*/
+  font-family: Arial;
+  font-family:verdana;
+  /* monospace*/
+   font-family: 'Courier New';
+    /* fantacy font*/
+    font-family:papyrus ;
+
+       /* Cursive font*/
+       font-family:brush script MT ;
+ 
+}
+h2{
+  font-size:65px ;
+  font-size:4.0625em ;
+  /*font-size: 100%;*/
+  font-style: normal;
+  font-style: italic;
+  font-style: oblique;
+ font-weight: normal;
+ font-weight: bold;
+}
+
+h3{
+  font-style: italic;
+font-family: 'poppins',sans-serif;
+  font-size: 400%;
+  font-weight: 1000;
+  font-style: oblique;
+  font-style: normal;
+  background: rgba(5, 1, 9, 0.3);
+  text-align: center;
+  color: rgba(208, 208, 208, 0.4);
+
+}
+h4{
+  font-size: 50px;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: "Bungee Spice", sans-serif;
+  text-align: center;
+  font-style:oblique;
+background: burlywood;
+text-shadow: 0px 0px 30px greenyellow;
+
+}
+
+h5{
+  font-size:50px;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  text-decoration:overline rebeccapurple;
+  text-transform:uppercase;
+  text-shadow:20px 25px 10px red;
+text-indent: 80px;
+text-align: center;
+
+
+
+}
