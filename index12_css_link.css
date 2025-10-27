@@ -1,4 +1,5 @@
 
+/*
 a{
   color: rgb(116, 203, 203);
   text-decoration: none;
@@ -33,4 +34,32 @@ a :focus{
   border:solid red;
 
 
+}*/
+a{
+  color: rgb(11, 75, 179);
+  text-decoration: underline;
+}
+
+a:visited{
+  color: rgb(199, 11, 11);
+}
+
+a:hover{
+  color:aqua;
+}
+a:active{
+  color:rgb(128, 30, 0);
+  font-weight: bold;
+  font-size: 25px;
+  
+
+}
+a:focus{
+  color: rgb(221, 255, 0);
+  font-size:16px;
+  background: rgb(174, 108, 191);
+  border: 2px dotted rebeccapurple;
+  margin:2%;
+  padding: 1%;
+ 
 }
