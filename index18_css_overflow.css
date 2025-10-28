@@ -1,0 +1,12 @@
+div{
+  background-color: #2d3436;
+  color: rgb(39, 184, 184);
+  padding: 20px 5%;
+  
+  width: 90%;
+  height:200px;
+  overflow: auto;
+}
+/*p{
+  width: 800px;
+}*/
