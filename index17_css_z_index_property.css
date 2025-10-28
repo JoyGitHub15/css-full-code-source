@@ -22,20 +22,22 @@ left: 50px;
   background:blueviolet;
 width:100px;
 height: 100px;
-right: 10px;
-left: 10px;
+margin-left:200px;
+right:200px;
 position:fixed;
+left: 100px;
+margin-top: -400px;
+
 
 }
 .child{
 
 background:plum;
-width: 50px;
-height:50px;
-left: 50px;
-right: 200px;
+width: 100px;
+height:100px;
+left: 140px;
 position: absolute;
-top: 50px;
+top: 140px;
 bottom: 60px;
 
 }
@@ -46,11 +48,11 @@ width: 50px;
 height:50px;
 
 
-left: 50px;
+left: 40px;
 margin-left: 125px;
 position: absolute;
 bottom: 0;
-top: 50px;
+top: 180px;
 margin-top: -15px;
 
 

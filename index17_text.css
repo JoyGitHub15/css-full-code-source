@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+#hero_area{
+  background: url(imaige12.avif);
+  background-size: cover;
+  padding: 300px 10px;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  z-index: 2;
+ 
+  
+
+}
+
+#hero_area h2{
+  color: white;
+  font-size:35px;
+  margin-bottom: 0;
+}
+#hero_area p{
+  color:white;
+  font-size:15px;
+  margin-bottom: 15px;
+}
+
+#hero_area .btn{
+background: brown;
+color: white;
+font-size: 14px;
+font-family: sans-serif;
+text-decoration: none;
+border-radius: 10px;
+padding: 10px;
+display: inline-block;
+
+}
+
+#hero_area .btn:hover{
+  background: blueviolet;
+  border: 5px double green;
+  font-size:18px ;
+
+}
+
+#hero_area .btn:active{
+  color: blue;
+  border: 2px dotted red;
+  font-size: 25px;
+  background: turquoise;
+}
+.bg{
+  position: absolute; 
+  background:url(imaige13.avif);
+  
+  padding: 350px 700px;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: -1;
+  
+}
