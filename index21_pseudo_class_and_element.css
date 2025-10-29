@@ -1,0 +1,97 @@
+a:hover{
+color: red;
+
+}
+a:visited{
+  color: green;
+}
+/*li:first-child{
+  color:red;
+  font-size: 20px;
+  font-style: italic;
+  list-style: decimal;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 4px double green;
+  border-radius: 10px;
+  border-style: groove;
+
+}
+li:last-child{
+  color: blue;
+  font-size: 20px;
+  font-style: italic;
+  list-style: decimal;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 4px double green;
+  border-radius: 10px;
+  border-style: groove;
+}*/
+
+li:nth-child(2n+1){
+  color: purple;
+  font-style: italic;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style:decimal;
+  border: 5px double green;
+  border-radius: 20px;
+  border-style: groove;
+  padding: 5px;
+  margin: 5px;
+
+}
+ li:nth-child(2n){
+
+   color: orange;
+  font-style: italic;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style:decimal;
+  border: 5px double red;
+  border-radius: 20px;
+  border-style: groove;
+  padding: 5px;
+  margin: 5px;
+
+ }
+
+ body{
+  background:aqua;
+  background-image: url(imaige.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+ }
+
+body::before{
+  content: 'Element';
+  background-image: url(imaige.jpg);
+  background-size: 100px 100px;
+}
+body::after{
+   content: 'Element';
+  background-image: url(imaige.jpg);
+  background-size: 100px 100px;
+
+}
+
+p::first-line{
+  color: brown;
+  font-size: 35px;
+  font-weight: bold;
+}
+p::first-letter{
+  font-size:65px ;
+  color: royalblue;
+  
+}
+
+p::selection{
+  color:white;
+  background-color: brown
+}
