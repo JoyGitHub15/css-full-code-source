@@ -1,0 +1,53 @@
+p{
+  color:blueviolet;
+}
+div p{
+
+font-weight: bold;
+
+}
+
+div>p{
+  color: brown;
+  font-size: 20px;
+}
+div>section>p{
+  font-family: sans-serif;
+  color: rgb(0, 255, 128);
+}
+div+p{
+  color: royalblue;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:black
+}
+
+section+p{
+  color: rgb(223, 223, 9);
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(111, 86, 134);
+
+}
+
+/*</div> after all lines modifer*/
+
+div~p{
+  color: rgb(16, 165, 165);
+
+}
+
+div>div>p{
+  background-color: blue;
+  color:white;
+}
+
+div>.child_div_01>p{
+ 
+  background-color: rgb(152, 114, 56);
+}
+
+div>.child_div_01 p{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
