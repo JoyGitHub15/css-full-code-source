@@ -1,0 +1,52 @@
+img{
+  max-width: 90%;
+  opacity:1;
+}
+img:hover{
+
+  opacity: 0.4;
+ 
+}
+.child_service{
+  text-align: center;
+  width: 300px;
+  margin: 25px auto;
+
+  color: white;
+}
+.child_service img{
+width: 100%;
+display: block;
+max-width: 100%;
+}
+
+  
+.inner_service{
+    padding: 45px 25px;
+    display: none;
+      background: rgb(14, 14, 94);
+}
+
+
+
+.child_service h2{
+   
+  font-size:35px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0;
+
+}
+.child_service a{
+  display: inline-block;
+  margin-top: 15px;
+  background: peru;
+  color: white;
+  font-size: 14px;
+  padding:12px 25px ;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.child_service .inner_service{
+  display: block;
+}
