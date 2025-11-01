@@ -24,27 +24,83 @@ body{
 
 }
 
-.contact_form{
+.child_form{
   width: 100%;
   margin-top: 15px;
   text-align: left;
 }
 
-.contact_form label{
+.child_form label{
   display: block;
   margin-bottom: 5px;
 }
 
-.contact_form input,.contact_form textarea{
+.child_form input{
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px 3px;
-  width: 94%;
+  padding: 10px 3%;
+  width: 70%;
    font-family: 'poppins',sans-serif;
 
 
 }
-.contact_form:last-child{
+
+
+.child_form textarea{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 3%;
+  width: 350px;
+  height: 200px;
+   font-family: 'poppins',sans-serif;
+
+
+}
+
+
+.child_form select{
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+  padding: 10px 3%;
+  width: 60%;
+  background: blueviolet;
+   font-family: 'poppins',sans-serif;
+color: white;
+
+
+}
+
+
+
+
+
+
+
+
+.child_form input[type='button']{
+  width: 200px;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  color: #fff;
+  border-radius: 20px;
+child_form input[type='button']{
+  width: 200px;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  color: #fff;
+  border-radius: 20px;
+}
+}
+
+.child_form input[type='button']:hover{
+  width: 200px;
+  background: black;
+  border: 1px solid black;
+  color: #fff;
+ 
+}
+
+.child_form:last-child{
   
-  margin-top:0px;
+  margin-bottom:0px;
 }
