@@ -1,0 +1,24 @@
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+
+.one{
+  background: rgb(81, 60, 101);
+  border: 5px solid rgb(174, 31, 5);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+
+  /* transition: transform 2s; */
+}
+
+.one:hover{
+
+  /* transform: translate(25px, 20px); */
+  /* transform: rotate(-1000deg) */
+  /* transform: scale(4,2); */
+  transform: skew(25deg);
+}
+
