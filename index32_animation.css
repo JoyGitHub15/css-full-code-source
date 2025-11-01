@@ -1,0 +1,113 @@
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+
+.one{
+  background: rgb(81, 60, 101);
+  border: 5px solid rgb(5, 174, 44);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 15px;
+
+  animation-name:learning;
+  animation-duration: 5s;
+  animation-delay:2s ;
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes learning {
+  from{
+    background:blue; 
+    width:100px;
+    height:100px;
+  }
+  to{
+    background: red;
+    width: 400px;
+    height: 400px;
+  }
+  
+} */
+@keyframes learning {
+  0%{
+    background:blue; 
+    width:100px;
+    height:100px;
+  }
+  25%{
+    background: aqua;
+    width: 200px;
+    height: 200px;
+  }
+  50%{
+    background: red;
+    width: 400px;
+    height: 400px;
+  }
+  75%{
+    background: violet;
+    width: 100px;
+    height: 100px;
+  }
+  100%{
+    background: green;
+    width: 200px;
+    height: 200px;
+  }
+  
+}
+
+
+.parent{
+  position:relative;
+  width:400;
+  height:400px ;
+
+
+
+}
+
+
+.two{
+  background:#f5cd79 ;
+  border: 3px solid #786fa6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  position: absolute;
+  left: 200px;
+  animation: rounds;
+  animation-duration:5s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rounds{
+  0%{
+    left: auto;
+    top:0;
+}
+  20%{
+    left: 300px;
+  
+    top:0;
+}
+  40%{
+    left: 300px; 
+    top:300px;
+    bottom:0;
+}
+  60%{
+    left: 0;
+    right: auto;
+    top:auto;
+    bottom:0;
+}
+    100%{
+    left: 0;
+    top:0px;
+}
+  
+}
