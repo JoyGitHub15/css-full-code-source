@@ -1,0 +1,39 @@
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+.test{
+  width: 350px;
+  height: 400px;
+  margin-bottom: 15px;
+  /* border: 10px solid #000; */
+  /* box-sizing: border-box; */
+  color: #ddd;
+}
+#one{
+  background: blueviolet;
+  padding: 50px;
+   border: 10px solid #000; 
+   box-sizing: content-box;
+}
+#two{
+  background: #192a56;
+  padding: 50px;
+   border: 10px solid #000;
+   box-sizing: border-box;
+}
+ #learning{
+  box-sizing: border-box;
+
+ }
+
+ .child{
+
+  background: blueviolet;
+  padding: 10px 8px;
+   border: 5px solid #000; 
+   box-sizing: border-box;
+   width: 32%;
+   float:left;
+   margin-right:1%;
+ }
