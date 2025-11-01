@@ -67,8 +67,13 @@ body{
    font-family: 'poppins',sans-serif;
 color: white;
 
+}
+.child_form select option{
+  background: rgb(214, 189, 227);
+  font-family: sans-serif;
 
 }
+
 
 
 
