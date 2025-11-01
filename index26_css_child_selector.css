@@ -1,0 +1,123 @@
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+
+.parant{
+margin-top: 10px;
+margin-left: 10px;
+ 
+  
+}
+
+.child{
+  width: 50px;
+  height:38px;
+  background: #8c7ae6;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+
+}
+.child p{
+  margin: 0;
+  padding: 0;
+  color:white
+}
+
+/* nth child */
+/*
+.child:first-child{
+  background: #e1b12d;
+}
+.child:last-child{
+  background: #44bd32;
+}
+.child:nth-child(3){
+  background: #00a8ff;
+
+}
+
+.child:nth-child(4){
+  background: #2e15ae;
+ 
+
+}
+.child:nth-child(5){
+  background: #e84118;
+
+}
+.child:nth-child(6){
+  background: #000000;
+
+}
+.child:nth-child(7){
+  background: #4d4e08;
+
+}
+.child:nth-child(8){
+  background: #58086f;
+
+}
+.child:nth-child(9){
+  background: #077d0d;
+
+}
+.child:nth-child(2){
+  background: #8b0000;
+
+}
+.child:nth-last-child(2){
+  background: #ff6f00;
+.child:nth-child(odd){
+  background: #778a09;
+}
+.child:nth-child(even){
+  background: #0a3d62;
+}
+
+}
+
+
+*/ 
+
+.child:nth-child(3n+4){
+  background: #1e098a;
+}
+
+/*form style*/
+form{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+input[type="text"]{
+  padding: 15px 25px;
+ 
+  border:1px solid #ddd;
+  color: black;
+  font-size: 14px;
+  border-radius: 25px;
+  font-family: 'poppins',sans-serif;
+  float: left;
+}
+
+input[type="button"]{
+  background: #227093;
+  padding: 15px 25px;
+  border:1px solid #227093;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  font-family: 'poppins',sans-serif;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+  
+}
+
+input:not(:placeholder-shown)+input[type="button"]{
+  display:block;
+}
