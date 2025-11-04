@@ -1,0 +1,76 @@
+:root{
+  --primary:#fdcb6e;
+  --sec: #dfe6e9;
+  --darkcolor: #00b894;
+  --whitecolor: #fff;
+  --defaultwidth: 90%;
+}
+
+*,
+*::after,
+*::befor{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+  background: var(--sec);
+
+}
+
+
+.main_area{
+  width: var(--defaultwidth);
+  margin: 20px auto;
+  background: var(--primary);
+  padding: 10px;
+}
+
+
+.child{
+  background: var(--darkcolor);
+  
+  padding: 10px;
+  color: var( --whitecolor);
+}
+
+.child a{
+  background: var(--primary);
+  color: var(--darkcolor);
+  display: inline-block;
+  transition: 0.5s;
+  padding:10px 20px;
+  text-decoration: none;
+
+}
+
+.child a:hover{
+  background: var(--sec);
+  color: var(--primary);
+}
+
+/* @media print{
+  body .child{
+    color: red;
+    width: 300px;
+  } */
+/* @media screen{
+  body .child{
+    color: red;
+    width: 300px;
+  }
+} */
+
+/* @media all and (min-width:300px) and (max-width:500px){
+  body .child{
+    color: red;
+    width: 300px;
+  }
+} */
+@media all and(orientation:landscape)and  (max-width:500px){
+  body .child{
+    color: red;
+    width: 300px;
+    background: blue;
+  }
+}
