@@ -1,0 +1,138 @@
+:root{
+  --primary:#fdcb6e;
+  --sec: #dfe6e9;
+  --darkcolor: #00b894;
+  --whitecolor: #fff;
+  --defaultwidth: 90%;
+}
+
+*,
+*::after,
+*::befor{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+  background: var(--sec);
+
+}
+.main_area{
+  width: var(--defaultwidth);
+  margin: 20px auto;
+  background: var(--primary);
+  padding: 10px;
+ 
+
+}
+
+.title{
+background: var(--darkcolor);
+padding: 20px;
+text-align:center;
+margin-bottom: 20px;
+
+}
+
+.main_area h2{
+color: var( --whitecolor);
+margin: 0;
+}
+.main{
+ display: grid;
+ /* grid-template-columns:70% 30%; */
+ /* grid-template-columns:2fr 1fr 1fr ; */
+ /* grid-template-columns:repeat(4,100px); */
+ grid-template-columns:auto auto 
+ auto auto;
+
+ /* grid-template-rows:70% 30%; */
+ /* grid-template-rows:100px 400px; */
+ /* grid-template-rows:1fr 2fr; */
+ grid-auto-rows: minmax(100px,auto);
+
+
+
+ column-gap: 10px;
+ row-gap:10px;
+ /* gap:10px */
+
+ /* justify-content: start ; */
+ /* justify-content: end ; */
+ /* justify-content: center; */
+ /* justify-content: space-around; */
+ /* justify-content: space-between; */
+ /* justify-content: space-evenly; */
+ 
+ /* align-content: start; */
+ /* align-content: end; */
+ /* align-content: center; */
+ /* align-content: space-around; */
+ /* align-content: space-between; */
+ /* align-content: space-evenly; */
+ 
+
+ /* height: 600px; */
+
+ /* grid-template-areas:' header header' 'footer footer' ; */
+
+
+}
+
+
+.child{
+  background: var(--darkcolor);
+  /* width: 100%; */
+  /* padding: 2px; */
+  /* margin-bottom: 20px; */
+  color: var( --whitecolor);
+
+  padding: 2%;
+  flex-basis: 27%;
+
+}
+
+.child a{
+  background: var(--primary);
+  color: var(--darkcolor);
+  display: inline-block;
+  transition: 0.5s;
+  padding:10px 20px;
+  text-decoration: none;
+
+}
+.child a:hover{
+  background: var(--sec);
+  color: var(--primary);
+}
+
+
+
+/* .child:nth-child(5) p,
+.child:nth-child(6) p,
+.child:nth-child(7) p,
+.child:nth-child(8) p{
+  display: none;
+} */
+
+/* .child:nth-child(1){
+  grid-area: header;
+}
+.child:nth-child(5){
+  grid-area: footer;
+} */
+ .child:nth-child(1){
+/* grid-column-start: 1;
+grid-column-end: 3; */
+grid-column:1/2;
+/* grid-row-start:1;
+grid-row-end:4; */
+/* grid-row: 1/4; */
+grid-row-start:1;
+grid-row-end:span 3;
+
+ }
+
+.child:nth-child(5){
+  grid-row:2/span 2;
+}
